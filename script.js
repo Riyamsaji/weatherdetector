@@ -58,13 +58,13 @@ function displayDetails(city) {
     <div class="card-group" >
     <div class="card "style="border:none ;background-color:white;color:#011f4b;">
     <div class="card-body" style="font-family: 'STIX Two Math', serif;">
-      <p class="card-text " style="font-size:50px; text-transform:uppercase">${weather_des} </b></p>
+      <p class="card-text text-center" style="font-size:50px; text-transform:uppercase">${weather_des} </b></p>
       </div>
     </div>
     <div class="card"style="border:none;background-color:white;color:#011f4b;">
      <div class="card-body-text-center">
-     <p class="card-text " style="font-size:30px; ">lattitude:<b>${latitude} </b></p>
-     <p class="card-text " style="font-size:30px;">longitude:<b>${longitude} </b></p>
+     <p class="card-text text-center" style="font-size:30px; ">lattitude:<b>${latitude} </b></p>
+     <p class="card-text text-center " style="font-size:30px;">longitude:<b>${longitude} </b></p>
      </div>
        
       </div>
@@ -73,7 +73,7 @@ function displayDetails(city) {
      font-family: 'Bree Serif', serif;
      font-family: 'Concert One', cursive;
      font-family: 'STIX Two Math', serif; ">
-     <p class="card-text " ><b>sealevel:${sealevel}</b></p>
+     <p class="card-text text-center" ><b>sealevel:${sealevel}</b></p>
      
      </div>
        
